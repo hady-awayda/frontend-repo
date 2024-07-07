@@ -21,4 +21,4 @@ jobs:
           curl -fL --retry 3 -X POST -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${TOKEN}" \
             https://api.github.com/repos/hady-awayda/fullstack-repo/actions/workflows/106111709/dispatches \
-            -d '{"event_type":"update-submodule"}'
+            -d '{"event_type":"submodule-updated"}'
